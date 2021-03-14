@@ -1,0 +1,100 @@
+
+h2 {
+	position: relative;
+	top: 200px;
+	text-align: center;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-size: 200%;
+	color: black;
+	text-transform: uppercase;
+	
+}	
+body {
+
+	background-image: linear-gradient(rgba(10, 10, 10, 0.50), rgba(10, 10, 10, 0.50)), url("Mypic.jpg");	
+	height: 200vh;
+	background-size: cover  ;
+	background-repeat:  no-repeat;
+	background-position: left;
+
+	
+	background-color: rgb(10, 10, 10);
+}	
+
+
+.sidebar {
+	margin: auto;
+	padding: auto;
+	width: 200px;
+	
+	position: relative;
+	top : 200px;
+	float: right;
+	overflow: auto;
+
+  }
+  
+  .sidebar a {
+	display: block;
+	color: rgb(255, 255, 255);
+	font-size: x-large;
+	padding: 16px;
+	text-decoration: none;
+  }
+   
+  .sidebar a.active {
+	
+	color: rgb(31, 39, 0);
+  }
+  
+  .sidebar a:hover:not(.active) {
+	background-color: #555;
+	color: white;
+  }
+  
+
+  
+  @media screen and (max-width: 1400px) {
+	.sidebar {
+	  width: 100%;
+	  height: auto;
+	  position: relative;
+	  top: 0;
+	}
+	.sidebar a { float: left;}
+	body {
+
+		background-image: linear-gradient(rgba(10, 10, 10, 0.50), rgba(10, 10, 10, 0.50)),url("Mypic.jpg");
+		height: 200vh;
+		background-size: cover ;
+		background-repeat:  no-repeat;
+		background-position: center;
+	
+		
+		background-color: rgb(10, 10, 10);
+	}
+	div.myself {margin-left: 0;}
+  }
+  
+  @media screen and (max-width: 400px) {
+	.sidebar a {
+	  text-align: center;
+	  float: none;
+	}
+  }
+
+div.myself{
+	font-family: Arial;
+	margin-left: 0px;
+	padding: 1px 16px;
+	height: 1000px;
+	position: relative;
+	top: 500px;
+	color: white;
+	font-size: 120%;		
+	
+}
+
+
+	
+	

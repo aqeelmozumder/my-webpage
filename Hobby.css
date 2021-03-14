@@ -1,0 +1,128 @@
+
+
+h2 {
+	position: relative;
+	top: 100px;
+	text-align: center;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-size: 200%;
+	color: yellow;
+	text-transform: uppercase;
+	
+}	
+
+h3{
+	
+	font-size: 150%;
+	
+}
+
+h4{
+	
+	font-size: 150%;
+}
+body {
+
+	background-image:linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("hobby pic.jpg");	
+	height: 200vh;
+	background-size: cover;
+	background-repeat:  no-repeat;
+	background-position: center;
+	
+	background-color: silver;
+}	
+
+
+.sidebar {
+	margin: auto;
+	padding: auto;
+	width: 200px;
+	
+	position: relative;
+	top : 200px;
+	float: right;
+	overflow: auto;
+
+  }
+  
+.sidebar a {
+	display: block;
+	color: rgb(255, 255, 255);
+	font-size: x-large;
+	padding: 16px;
+	text-decoration: none;
+}
+   
+.sidebar a.active {
+	
+	color: rgb(88, 102, 39);
+}
+  
+.sidebar a:hover:not(.active) {
+	background-color: #555;
+	color: white;
+}
+  
+
+  
+@media screen and (max-width: 1800px) {
+	.sidebar {
+	  width: 100%;
+	  height: auto;
+	  position: relative;
+	  top: 0;
+	}
+	.sidebar a { float: left;}
+
+	body {
+
+		background-image:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("hobby pic.jpg");
+		height: 200vh;
+		background-size: cover ;
+		background-repeat:  no-repeat;
+		background-position: center;
+	
+		
+		background-color: rgb(10, 10, 10);
+	}
+	
+}
+  
+@media screen and (max-width: 400px) {
+	.sidebar a {
+	  text-align: center;
+	  float: none;
+	}
+}
+
+
+div.Hobbies{
+	font-family: Arial;
+	position: relative;
+	top: 350px;
+	color: white;
+	font-size: large;	
+	
+}
+
+div.Social{
+	font-family: Arial;
+	position: relative;
+	top: 550px;
+	float: right;
+	right: 10%;
+	color: white;
+	font-size: large;
+}
+
+div.ptt{
+	font-family: Arial;
+	font-size: large;
+	padding: 80px;
+	
+	
+}
+
+	
+
+	
